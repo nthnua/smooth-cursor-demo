@@ -7,7 +7,6 @@ const poppins = Poppins({ subsets: ['latin'], weight: '300' })
 
 export default function Home() {
   const { x, y } = useMousePosition()
-  console.log(x, y)
   const cursorMediaRef = useRef(null)
   return (
     <>
