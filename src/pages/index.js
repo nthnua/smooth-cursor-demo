@@ -32,7 +32,7 @@ export default function Home() {
       }}>
         <div className='cursorMedia' ref={cursorMediaRef}>
           <video
-            src='videos/apps.mp4'
+            src='https://github.com/nthnua/smooth-cursor-demo/raw/main/public/videos/apps.mp4'
             loop
             autoPlay
             muted
